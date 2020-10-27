@@ -1,3 +1,4 @@
+# Network Configuration for Firewall
 This article explains how to configure a firewall for network connectivity when users want to use the SDK (especially the browser-based SDK) behind the firewall.
 
 ## Requirements for Signal Connectivity
