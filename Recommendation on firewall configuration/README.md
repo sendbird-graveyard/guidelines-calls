@@ -10,11 +10,11 @@ This article explains how to configure a firewall for network connectivity when 
 > If you need a static IP list, please go to your dashboard and file a ticket.
 
 ## Requirements for Media Connectivity when using Direct Call
-|Protocol|Behind firewall<br>Source IP&nbsp;&nbsp;&nbsp;Source Port                     |Allowed destinations<br>Wildcard FQDN*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Port|
+|Protocol|Behind firewall<br>Source IP&nbsp;&nbsp;&nbsp;Source Port                     |Allowed destinations<br>Wildcard FQDN**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Port|
 |:------:|:-----------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
 |UDP     |ANY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ANY|*.calls.sendbird.com&nbsp;&nbsp;&nbsp;5349                                                           |
 
-*If you cannot use wildcard FQDN as the destination address, set it to ANY.
+**If you cannot use wildcard FQDN as the destination address, set it to ANY.
 
 > Static IP list is not provided for connectivity to Media Server.
 
